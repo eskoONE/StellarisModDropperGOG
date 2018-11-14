@@ -1,13 +1,14 @@
 from os import path, chdir, makedirs, listdir
 from zipfile import ZipFile
 import sys
+from subprocess import Popen
 
 # Stellaris mod folder path for the GOG version of the game
 mod_path = "\\Documents\\Paradox Interactive\\Stellaris\\mod"
 # expected full user mod path on Windows 10
 usr_mod_path = path.expanduser("~") + mod_path
 # onto the pyscript drag and dropped zip file
-mod_zip = sys.argv[1]
+
 # test.zip path, this is obsolute
 # mod_zip = os.path.expanduser("~") + "\\Downloads\\test_mod.zip"
 
@@ -16,7 +17,6 @@ def find_mod_folder():
     # change dir to mod folder if it exists, if not create it
     if path.exists(usr_mod_path):
         chdir(usr_mod_path)
-        print(listdir())
 
     else:
         try:
@@ -73,7 +73,45 @@ def modify_dot_mod():
 
 
 if __name__ == "__main__":
-    find_mod_folder()
-    unzip_mod_zip()
-    modify_dot_mod()
-    quit()
+    try:
+        global mod_zip
+        mod_zip = sys.argv[1]
+
+        find_mod_folder()
+        unzip_mod_zip()
+        modify_dot_mod()
+        quit()
+
+    except IndexError:
+        find_mod_folder()
+        Popen('explorer "{0}"'.format(usr_mod_path))
+
+# if __name__ == "__main__":
+
+#     global mod_zip
+#     mod_zip = sys.argv[1]
+
+    # if not mod_zip == sys.argv[1]:
+    #     Popen('explorer "{0}"'.format(usr_mod_path))
+
+    # else:
+    #     find_mod_folder()
+    #     unzip_mod_zip()
+    #     modify_dot_mod()
+    #     quit()
+
+
+#     if not mod_zip == sys.argv[1]:
+#         Popen('explorer "{0}"'.format(usr_mod_path))
+
+#     else:
+#         find_mod_folder()
+#         unzip_mod_zip()
+#         modify_dot_mod()
+#         quit()
+
+# for arg in sys.argv:
+# if arg == "do":
+# do this
+# if arg == ""
+# print "us...

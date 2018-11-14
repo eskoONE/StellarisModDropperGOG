@@ -34,7 +34,7 @@
  [],
  False,
  False,
- 1542185257,
+ 1542237764,
  [('run.exe',
    'c:\\users\\eskoo\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\run.exe',
    'EXECUTABLE')])

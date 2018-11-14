@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"open",
+				"open_explorer"
+			],
+			[
+				"mod",
+				"mod_zip"
+			],
+			[
+				"rp_",
+				"rp_end"
+			],
+			[
+				"dot_",
+				"dot_mod_contents"
+			],
+			[
+				"rp",
+				"rp_start"
+			],
+			[
+				"dotmod",
+				"dot_mod_contents"
+			],
+			[
+				"dotmo",
+				"dot_mod_contents"
+			],
+			[
+				"unzi",
+				"unzip_mod_zip"
+			],
+			[
+				"cu",
+				"list_current_dir"
+			],
+			[
+				"list",
+				"list_current_dir"
+			],
+			[
+				"mod_",
+				"mod_zip_dest"
+			],
+			[
+				"Exe",
+				"Exception\tclass"
+			],
+			[
+				"zip",
+				"zip_dirs\tstatement"
+			],
+			[
+				"os",
+				"os.chdir"
+			],
+			[
+				"extra",
+				"extractall\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "smdGOG.pyw",
+			"settings":
+			{
+				"buffer_size": 2076,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WIP_dclick_smdGOG.pyw",
+			"settings":
+			{
+				"buffer_size": 2251,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"daui",
+				"DA UI: Select Accent"
+			],
+			[
+				"gutter",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"da ui",
+				"DA UI: Select Accent"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Extras"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package ci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 288.0,
+		"history":
+		[
+			"-- run flake8 badly_formatted_python_program.py",
+			"import socket; socket.socket(socket.AF_INET,socket.SOCK_STREAM).connect((\"localhost\", 49933))",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 49933))",
+			"close",
+			"exit",
+			"help",
+			"end",
+			"shutdown",
+			"quit",
+			"Reboot"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/eskoo/Projects/smdGOG"
+	],
+	"file_history":
+	[
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/SMD.pyw",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/testing2.pyw",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/old.pyw",
+		"/C/Users/eskoo/Documents/Paradox Interactive/Stellaris/mod test/687448131.mod",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/testing.py",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/pythonREPL.sublime-build",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/test.pyw",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/sudocoding",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/pythonREPL.py",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/Python (Django).sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/XML.sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/All Autocomplete.sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/Python37.sublime-build",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD.pyw",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/MODi.py",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/User/python37.sublime-build",
+		"/C/Users/eskoo/PycharmProjects/intrpretertest/tets.py",
+		"/C/Users/eskoo/Desktop/1527522376_Tech_Tier_Numbers_on_Tech_Icons.zip",
+		"/C/Users/eskoo/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"os",
+			"dm_contents",
+			"dot_mod_contents",
+			"\\",
+			"fn",
+			"/",
+			"create_list",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dm_c",
+			"dm_contents",
+			"\\\\",
+			"fp",
+			"\\\\",
+			"find_mod_name",
+			"\\\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "smdGOG.pyw",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1109,
+								1109
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
+								"SL.pycodestyle.Highlights.|e83f8b9f68bd9b3c1a267046e05e9cac6feca69238ed429ec5331333c29d562e|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"SL.22.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
+								"SL.pyflakes.Highlights.|4a6b506bef0bb6307a9bb5d424cbb8486f6613639af61171d983fab04cb9aedd|region.redish markup.error.sublime_linter|32"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "WIP_dclick_smdGOG.pyw",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2251,
+								2251
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
+								"SL.pyflakes.Highlights.|4a6b506bef0bb6307a9bb5d424cbb8486f6613639af61171d983fab04cb9aedd|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"SL.15.region_keys":
+							[
+								"SL.pyflakes.Highlights.|4a6b506bef0bb6307a9bb5d424cbb8486f6613639af61171d983fab04cb9aedd|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 211.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "Packages/User/Python37.sublime-build",
+	"project": "smdGOG.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
