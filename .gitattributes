@@ -1,2 +1,7 @@
 *.html linguist-vendored
-static/* linguist-vendored
+
+__pycache__ linguist-vendored
+
+build/smdGOG linguist-vendored
+
+dist linguist-vendored
