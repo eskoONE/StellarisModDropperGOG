@@ -68,19 +68,11 @@
 	"buffers":
 	[
 		{
-			"file": "smdGOG.pyw",
+			"file": "smdGOG.py",
 			"settings":
 			{
-				"buffer_size": 2076,
+				"buffer_size": 2233,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "WIP_dclick_smdGOG.pyw",
-			"settings":
-			{
-				"buffer_size": 2251,
 				"line_ending": "Windows"
 			}
 		}
@@ -199,6 +191,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/eskoo/Projects/smdGOG/smdGOG.pyw",
 		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/SMD.pyw",
 		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/testing2.pyw",
 		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/old.pyw",
@@ -226,7 +219,7 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 57.0
 	},
 	"find_in_files":
 	{
@@ -240,6 +233,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Popen",
 			"os",
 			"dm_contents",
 			"dot_mod_contents",
@@ -272,39 +266,39 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "smdGOG.pyw",
+					"file": "smdGOG.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2076,
+						"buffer_size": 2233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1109,
-								1109
+								837,
+								837
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
 							[
-								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
-								"SL.pycodestyle.Highlights.|e83f8b9f68bd9b3c1a267046e05e9cac6feca69238ed429ec5331333c29d562e|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions"
 							],
-							"SL.22.region_keys":
+							"SL.18.region_keys":
 							[
+								"SL.pycodestyle.Highlights.|ede12014ca7fc4e3c22cc00f8b7bb1227379b91edae7db2ecce257a50ac9ad33|region.redish markup.error.sublime_linter|32",
+								"SL.pycodestyle.Highlights.|935f5f26b3dbbfd065f2169ba1cf15ac72ea7d7b8cd799f2be821b53531657f1|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
-								"SL.pyflakes.Highlights.|4a6b506bef0bb6307a9bb5d424cbb8486f6613639af61171d983fab04cb9aedd|region.redish markup.error.sublime_linter|32"
+								"SL.pycodestyle.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
+								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png"
 							],
 							"auto_complete_triggers":
 							[
@@ -315,58 +309,19 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "WIP_dclick_smdGOG.pyw",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2251,
-								2251
-							]
-						],
-						"settings":
-						{
-							"SL.14.region_keys":
-							[
-								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
-								"SL.pyflakes.Highlights.|4a6b506bef0bb6307a9bb5d424cbb8486f6613639af61171d983fab04cb9aedd|region.redish markup.error.sublime_linter|32",
-								"sublime_linter.protected_regions"
-							],
-							"SL.15.region_keys":
-							[
-								"SL.pyflakes.Highlights.|4a6b506bef0bb6307a9bb5d424cbb8486f6613639af61171d983fab04cb9aedd|region.redish markup.error.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png"
-							],
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1083.0,
+						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
