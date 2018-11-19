@@ -73,6 +73,7 @@ def modify_dot_mod():
 
 
 if __name__ == "__main__":
+
     try:
         global mod_zip
         mod_zip = sys.argv[1]

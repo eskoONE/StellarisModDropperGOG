@@ -71,8 +71,16 @@
 			"file": "smdGOG.py",
 			"settings":
 			{
-				"buffer_size": 2233,
+				"buffer_size": 2234,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "smdGOG.pyw",
+			"settings":
+			{
+				"buffer_size": 2812,
 				"line_ending": "Windows"
 			}
 		}
@@ -191,6 +199,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/eskoo/Projects/smdGOG/smdGOG.py",
+		"/C/Users/eskoo/Projects/smdGOG/.gitattributes",
 		"/C/Users/eskoo/Projects/smdGOG/smdGOG.pyw",
 		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/SMD.pyw",
 		"/C/Users/eskoo/PycharmProjects/intrpretertest/SMD/testing2.pyw",
@@ -219,7 +229,7 @@
 	],
 	"find":
 	{
-		"height": 57.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -275,45 +285,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2233,
+						"buffer_size": 2234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								837,
-								837
+								1303,
+								1303
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
 							[
+							],
+							"SL.40.region_keys":
+							[
 								"sublime_linter.protected_regions"
-							],
-							"SL.18.region_keys":
-							[
-								"SL.pycodestyle.Highlights.|ede12014ca7fc4e3c22cc00f8b7bb1227379b91edae7db2ecce257a50ac9ad33|region.redish markup.error.sublime_linter|32",
-								"SL.pycodestyle.Highlights.|935f5f26b3dbbfd065f2169ba1cf15ac72ea7d7b8cd799f2be821b53531657f1|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.pycodestyle.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
-								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png"
-							],
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
 							],
 							"git_gutter_is_enabled": false,
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
@@ -321,12 +311,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 969.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "smdGOG.pyw",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.61.region_keys":
+							[
+								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
+								"SL.pyflakes.Highlights.|5c0dc046c1c6e0bbecbcc9c92d9b486e13e60a8c7cc7d5e11ef6ea51f3ed8822|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.pycodestyle.Highlights.|ac74260a795c153b287ae113c6e97c4b843a866175d2a8bbbae2e1e8a95025ab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -347,6 +381,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -357,6 +397,7 @@
 		"rows":
 		[
 			0.0,
+			0.724688728484,
 			1.0
 		]
 	},
@@ -373,11 +414,15 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 262.0
+	},
 	"output.unsaved_changes":
 	{
 		"height": 142.0
 	},
-	"pinned_build_system": "Packages/User/Python37.sublime-build",
+	"pinned_build_system": "Anaconda Python Builder",
 	"project": "smdGOG.sublime-project",
 	"replace":
 	{
@@ -419,7 +464,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
