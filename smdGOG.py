@@ -1,12 +1,25 @@
 from os import path, chdir, makedirs
+#import platform
+from sys import platform as _platform
 from zipfile import ZipFile
 import sys
 from subprocess import Popen
 
 # Stellaris mod folder path for the GOG version of the game
-mod_path = "\\Documents\\Paradox Interactive\\Stellaris\\mod"
+
+if _platform == "linux" or _platform == "linux2":
+    # linux
+    mod_path = "/.local/share/Paradox Interactive/Stellaris/mod"
+elif _platform == "darwin":
+    # MAC OS X
+    pass
+elif _platform == "win32" or _platform == "win64":
+    # Windows
+    mod_path = "\\Documents\\Paradox Interactive\\Stellaris\\mod"
+
 # expected full user mod path on Windows 10
 usr_mod_path = path.expanduser("~") + mod_path
+
 # onto the pyscript drag and dropped zip file
 
 # test.zip path, this is obsolute
@@ -22,7 +35,7 @@ def find_mod_folder():
         try:
             makedirs(usr_mod_path)
         except OSError:
-                print("failed creating mod folder!")
+            print("failed creating mod folder!")
 
 
 def unzip_mod_zip():
@@ -35,10 +48,10 @@ def unzip_mod_zip():
 
         for item in zip_list:
             if item.endswith(".mod"):
-                    zipfile.extractall(usr_mod_path)
-                    found = True
-                    print("zip extracted to " + usr_mod_path)
-                    break
+                zipfile.extractall(usr_mod_path)
+                found = True
+                print("zip extracted to " + usr_mod_path)
+                break
 
     if not found:
         print("zip doesnt contain .mod file!")
@@ -50,7 +63,12 @@ def modify_dot_mod():
     # assign 2nd item from previous list to a var and modify the file
     global dot_mod
     dot_mod = zip_list[1]
-    f = open(usr_mod_path + "\\" + dot_mod, "r+")
+
+    # NOTE: Not sure if needed
+    if _platform == "win32" or _platform == "win64":
+        f = open(usr_mod_path + "//" + dot_mod, "r+")
+    else:
+        f = open(usr_mod_path + "/" + dot_mod, "r+")
 
     try:
         dm_c = f.read()
