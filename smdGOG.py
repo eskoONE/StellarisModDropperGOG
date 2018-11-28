@@ -69,7 +69,7 @@ def modify_dot_mod():
 
     # NOTE(jq): Not sure if needed, test if '/' works on Windows
     if _platform == "win32" or _platform == "win64":
-        f = open(usr_mod_path + "//" + dot_mod, "r+")
+        f = open(usr_mod_path + "\\" + dot_mod, "r+")
     else:
         # MacOS or Linux NOTE(jq): not test on MacOS
         f = open(usr_mod_path + "/" + dot_mod, "r+")
