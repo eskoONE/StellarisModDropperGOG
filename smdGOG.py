@@ -12,10 +12,14 @@ if _platform == "linux" or _platform == "linux2":
     mod_path = "/.local/share/Paradox Interactive/Stellaris/mod"
 elif _platform == "darwin":
     # MAC OS X
-    pass
+    mod_path = "/Documents/Paradox Interactive/Stellaris/mod"
 elif _platform == "win32" or _platform == "win64":
     # Windows
     mod_path = "\\Documents\\Paradox Interactive\\Stellaris\\mod"
+else:
+    # NOTE(jq):assume Linux?
+    mod_path = "/.local/share/Paradox Interactive/Stellaris/mod"
+
 
 # expected full user mod path on Windows 10
 usr_mod_path = path.expanduser("~") + mod_path
@@ -64,10 +68,11 @@ def modify_dot_mod():
     global dot_mod
     dot_mod = zip_list[1]
 
-    # NOTE: Not sure if needed
+    # NOTE(jq): Not sure if needed, test if '/' works on Windows
     if _platform == "win32" or _platform == "win64":
         f = open(usr_mod_path + "//" + dot_mod, "r+")
     else:
+        # MacOS or Linux NOTE(jq): not test on MacOS
         f = open(usr_mod_path + "/" + dot_mod, "r+")
 
     try:
