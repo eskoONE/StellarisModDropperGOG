@@ -1,5 +1,4 @@
 from os import path, chdir, makedirs
-#import platform
 from sys import platform as _platform
 from zipfile import ZipFile
 import sys
