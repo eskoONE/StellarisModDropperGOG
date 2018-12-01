@@ -75,7 +75,7 @@
 			"file": "smdGOG.py",
 			"settings":
 			{
-				"buffer_size": 2909,
+				"buffer_size": 2904,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -272,7 +272,7 @@
 	],
 	"find":
 	{
-		"height": 57.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -342,7 +342,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2909,
+						"buffer_size": 2904,
 						"regions":
 						{
 						},
@@ -357,9 +357,9 @@
 						{
 							"SL.13.region_keys":
 							[
-								"SL.pyflakes.Highlights.|56b71f71289d2e62024db108af4d5efe4d2b7b2ebcd0912a6793aa5c91e45830|region.redish markup.error.sublime_linter|32",
-								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|dot",
-								"sublime_linter.protected_regions"
+								"SL.pycodestyle.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.pycodestyle.Highlights.|8cae8485168418331ed97e6985d24ac7aae1a9627d9d75080c4f5003470c24be|region.redish markup.error.sublime_linter|32"
 							],
 							"SL.15.region_keys":
 							[
@@ -440,7 +440,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1672.0,
+						"translation.y": 2025.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -576,7 +576,7 @@
 	"project": "smdGOG.sublime-project",
 	"replace":
 	{
-		"height": 96.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
