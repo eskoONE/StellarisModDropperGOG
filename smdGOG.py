@@ -1,32 +1,29 @@
-from os import path, chdir, makedirs
-from sys import platform as _platform
 from zipfile import ZipFile
-import sys
+from sys import argv, platform
+from os import chdir, path, makedirs
 from subprocess import Popen
+import os
 
 # Stellaris mod folder path for the GOG version of the game
-
-if _platform == "linux" or _platform == "linux2":
-    # linux
-    mod_path = "/.local/share/Paradox Interactive/Stellaris/mod"
-elif _platform == "darwin":
-    # MAC OS X
+linux = platform == "linux" or platform == "linux2"
+darwin = platform == "darwin"
+windows = platform == "win32" or platform == "win64"
+if darwin:
+    # Mac OS
     mod_path = "/Documents/Paradox Interactive/Stellaris/mod"
-elif _platform == "win32" or _platform == "win64":
+elif windows:
     # Windows
     mod_path = "\\Documents\\Paradox Interactive\\Stellaris\\mod"
 else:
-    # NOTE(jq):assume Linux?
+    # Linux
     mod_path = "/.local/share/Paradox Interactive/Stellaris/mod"
 
 
-# expected full user mod path on Windows 10
+# expected full user mod path
 usr_mod_path = path.expanduser("~") + mod_path
 
-# onto the pyscript drag and dropped zip file
-
-# test.zip path, this is obsolute
-# mod_zip = os.path.expanduser("~") + "\\Downloads\\test_mod.zip"
+# test.zip path, only for testing, this is obsolute!
+# mod_zip = path.expanduser("~") + "\\Downloads\\test_mod.zip"
 
 
 def find_mod_folder():
@@ -68,7 +65,7 @@ def modify_dot_mod():
     dot_mod = zip_list[1]
 
     # NOTE(jq): Not sure if needed, test if '/' works on Windows
-    if _platform == "win32" or _platform == "win64":
+    if windows:
         f = open(usr_mod_path + "\\" + dot_mod, "r+")
     else:
         # MacOS or Linux NOTE(jq): not test on MacOS
@@ -94,11 +91,20 @@ def modify_dot_mod():
             f.close()
 
 
+def open_path():
+    if windows:
+        os.startfile(usr_mod_path)
+    elif darwin:
+        Popen(["open", usr_mod_path])
+    else:
+        Popen(["xdg-open", usr_mod_path])
+
+
 if __name__ == "__main__":
 
     try:
         global mod_zip
-        mod_zip = sys.argv[1]
+        mod_zip = argv[1]
 
         find_mod_folder()
         unzip_mod_zip()
@@ -107,4 +113,4 @@ if __name__ == "__main__":
 
     except IndexError:
         find_mod_folder()
-        Popen('explorer "{0}"'.format(usr_mod_path))
+        open_path()

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"_pa",
+				"_platform\tinstance"
+			],
+			[
 				"open",
 				"open_explorer"
 			],
@@ -71,21 +75,24 @@
 			"file": "smdGOG.py",
 			"settings":
 			{
-				"buffer_size": 2234,
+				"buffer_size": 2909,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "smdGOG.pyw",
+			"contents": "Python 2.7.15rc1 (default, Nov 12 2018, 14:31:15) \n[GCC 7.3.0] on linux2\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> from os import startfile\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: cannot import name startfile\n>>> from os import startfile  as _startfile\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: cannot import name startfile\n>>> from os import startfiles\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: cannot import name startfiles\n>>> from os import startfile()\n  File \"<stdin>\", line 1\n    from os import startfile()\n                            ^\nSyntaxError: invalid syntax\n>>> \n\n***Repl Closed***\n",
 			"settings":
 			{
-				"buffer_size": 2812,
-				"line_ending": "Windows"
+				"buffer_size": 762,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/User/python3_6_7.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -103,6 +110,22 @@
 				"Packages/Python/Python.sublime-build",
 				""
 			]
+		],
+		[
+			[
+				[
+					"Packages/User/python3_6_7.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python3_6_7.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/python3_6_7.sublime-build",
+				""
+			]
 		]
 	],
 	"build_varint": "",
@@ -113,20 +136,40 @@
 		"selected_items":
 		[
 			[
-				"git",
-				"Git: Commit history"
+				"sublimelinster",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"package",
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"restart",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"packa",
 				"Package Control: Remove Package"
+			],
+			[
+				"build",
+				"Build: New Build System"
 			],
 			[
 				"daui",
 				"DA UI: Select Accent"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
 			],
 			[
 				"gutter",
@@ -143,10 +186,6 @@
 			[
 				"isntall",
 				"Package Control: Install Package"
-			],
-			[
-				"packa",
-				"Package Control: Remove Package"
 			],
 			[
 				"inst",
@@ -169,7 +208,7 @@
 	},
 	"console":
 	{
-		"height": 288.0,
+		"height": 515.0,
 		"history":
 		[
 			"-- run flake8 badly_formatted_python_program.py",
@@ -195,10 +234,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/eskoo/Projects/smdGOG"
+		"/home/eskoone/Projects/StellarisModDropperGOG"
 	],
 	"file_history":
 	[
+		"/home/eskoone/Projects/StellarisModDropperGOG/test.py",
+		"/home/eskoone/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/eskoone/.config/sublime-text-3/Packages/User/python3_6_7.sublime-build",
+		"/home/eskoone/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Users/eskoo/Projects/smdGOG/smdGOG.py",
 		"/C/Users/eskoo/Projects/smdGOG/.gitattributes",
 		"/C/Users/eskoo/Projects/smdGOG/smdGOG.pyw",
@@ -229,7 +272,7 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 57.0
 	},
 	"find_in_files":
 	{
@@ -243,6 +286,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"startfile",
+			"strtfile",
+			"_platform",
+			"sys",
+			"os.",
+			"os",
+			" ",
+			"startfile",
+			"makedirs",
+			"chdir",
+			"path",
+			" ",
 			"Popen",
 			"os",
 			"dm_contents",
@@ -259,6 +314,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"platform",
+			"",
 			"dm_c",
 			"dm_contents",
 			"\\\\",
@@ -285,33 +342,105 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2234,
+						"buffer_size": 2909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1303,
-								1303
+								2455,
+								2455
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
 							[
+								"SL.pyflakes.Highlights.|56b71f71289d2e62024db108af4d5efe4d2b7b2ebcd0912a6793aa5c91e45830|region.redish markup.error.sublime_linter|32",
+								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"SL.27.region_keys":
+							[
+							],
+							"SL.31.region_keys":
+							[
+							],
+							"SL.32.region_keys":
+							[
+								"sublime_linter.protected_regions"
 							],
 							"SL.40.region_keys":
 							[
 								"sublime_linter.protected_regions"
 							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_enable": false,
 							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 1672.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -319,48 +448,76 @@
 				},
 				{
 					"buffer": 1,
-					"file": "smdGOG.pyw",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2812,
+						"buffer_size": 762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								762,
+								762
 							]
 						],
 						"settings":
 						{
-							"SL.61.region_keys":
+							"auto_complete": true,
+							"auto_complete_triggers":
 							[
-								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png",
-								"SL.pyflakes.Highlights.|5c0dc046c1c6e0bbecbcc9c92d9b486e13e60a8c7cc7d5e11ef6ea51f3ed8822|region.redish markup.error.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.pycodestyle.Highlights.|ac74260a795c153b287ae113c6e97c4b843a866175d2a8bbbae2e1e8a95025ab|region.yellowish markup.warning.sublime_linter|32",
-								"SL.pyflakes.Gutter.|region.redish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/pointer.png"
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
 							],
+							"auto_indent": false,
+							"default_dir": "/home/eskoone/Projects/StellarisModDropperGOG",
+							"detect_indentation": false,
 							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "fbff9b0b7673426fad21d1f2aee24cbc",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-i",
+									"-u"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1254.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -381,12 +538,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -397,18 +548,17 @@
 		"rows":
 		[
 			0.0,
-			0.724688728484,
 			1.0
 		]
 	},
 	"menu_visible": true,
 	"output.SublimeLinter":
 	{
-		"height": 0.0
+		"height": 124.0
 	},
 	"output.exec":
 	{
-		"height": 211.0
+		"height": 293.0
 	},
 	"output.find_results":
 	{
@@ -426,7 +576,7 @@
 	"project": "smdGOG.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 96.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -449,12 +599,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 270.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 558.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -464,7 +614,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 200.0,
+	"side_bar_width": 274.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
